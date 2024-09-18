@@ -52,4 +52,41 @@ describe('Realizando requisições para a API', () => {
       );
     });
   });
+
+  context('Teste método PUT da API Usuários', () => {
+    it('Deve atualizar informações do usuário com sucesso', () => {
+      const usuario = {
+        nome: 'Vinicius Nevesss',
+        senha: '78945667',
+      }
+
+      cy.request({
+        method: 'PUT',
+        url: 'http://localhost:8000/users/c691fd15-dcd5-4f24-89da-cdfa3cef9d67',
+        body: usuario,
+        failOnStatusCode: false
+      }).then((response) => {
+        expect(response.status).to.eq(200)
+        expect(response.body.nome).to.eq(usuario.nome);
+        expect(response.body.senha).to.eq(usuario.senha);
+      })
+    });
+
+    it('Deve retornar erro 404 para usuário inexistente', () => {
+      const usuario = {
+        nome: 'Vinicius Nevesss',
+        senha: '78945667',
+      }
+
+      cy.request({
+        method: 'PUT',
+        url: 'http://localhost:8000/users/calopsita',
+        body: usuario,
+        failOnStatusCode: false
+      }).then((response) => {
+        expect(response.status).to.eq(404);
+        expect(response.body).to.eq('Not Found');
+      });
+    });
+  });
 });
