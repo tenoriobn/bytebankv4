@@ -10,12 +10,12 @@ export default function Transacoes({ transacao, estilos }) {
       </div>
       {transacao.tipoTransacao === 'Transferência' ? (
         <h3
-          data-testid="valorTransacao"
+          data-test="valorTransacao"
           className={estilos.valor}
         >{`- R$ ${transacao.valor}`}</h3>
       ) : (
         <h3
-          data-testid="valorTransacao"
+          data-test="valorTransacao"
           className={estilos.valor}
         >{` R$ ${transacao.valor}`}</h3>
       )}

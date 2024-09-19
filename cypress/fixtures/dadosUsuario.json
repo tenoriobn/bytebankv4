@@ -1,0 +1,23 @@
+{
+  "id": "c691fd15-dcd5-4f24-89da-cdfa3cef9d67",
+  "nome": "Vinicius Nevesss",
+  "email": "vinny@alura.com",
+  "senha": "78945667",
+  "transacoes": [
+    {
+      "id": "b0411964-c8d4-4742-ad6d-15bb35b71b97",
+      "tipoTransacao": "Depósito",
+      "valor": "5000",
+      "data": "17/02/2023",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "f065a917-d283-4075-bbc3-4e1b3d8d1f3a",
+      "tipoTransacao": "Depósito",
+      "valor": "1500",
+      "data": "17/02/2023",
+      "mes": "Fevereiro"
+    }
+  ],
+  "saldo": 3500
+}
