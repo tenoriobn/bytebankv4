@@ -2,9 +2,9 @@
   "users": [
     {
       "id": "40a41438-84a6-4b4d-ae1d-7f1713d0a9fe",
-      "nome": "Eduarda Carvalho",
+      "nome": "Neilton Santos",
       "email": "neilton@alura.com",
-      "senha": "d4Rd_tKahEJAGmh",
+      "senha": "123456",
       "transacoes": [
         {
           "id": "788f434b-11ee-451d-b968-02d203bfc81a",
@@ -182,9 +182,23 @@
           "valor": "100",
           "data": "20/09/2024",
           "mes": "Setembro"
+        },
+        {
+          "id": "1a3af983-4d12-4336-8e95-b104f4b89264",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "196f3001-a74d-4ead-83ba-98f685e0a86c",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
         }
       ],
-      "saldo": 3800
+      "saldo": 4000
     },
     {
       "id": "545e2271-3f4f-4986-bf03-04eae5d66b66",
@@ -223,6 +237,22 @@
       "nome": "Feliciano Carvalho",
       "email": "Alexandre.Santos70@live.com",
       "senha": "uByYT0aRR98mEd3",
+      "transacoes": [],
+      "saldo": 0
+    },
+    {
+      "id": "1b8f784b-7aa3-4a43-989a-a21dc23afbee",
+      "nome": "Lucca Santos",
+      "email": "Isabel.Saraiva@live.com",
+      "senha": "5WPFUNEKXQhSoHg",
+      "transacoes": [],
+      "saldo": 0
+    },
+    {
+      "id": "2cdd2ec6-69f9-4984-8fe1-6e587db4bb7f",
+      "nome": "Isabella Batista",
+      "email": "Sirineu_Batista@yahoo.com",
+      "senha": "simYTkMVvh6Zkfp",
       "transacoes": [],
       "saldo": 0
     }
