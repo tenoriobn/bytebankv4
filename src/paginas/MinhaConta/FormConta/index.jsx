@@ -42,6 +42,7 @@ export const FormConta = () => {
             value={nome}
             placeholder="Joana da Silva Oliveira"
             onChange={handleChange}
+            data-test="nome"
           />
           {erro.path === 'nome' ? (
             <span data-test="mensagem-erro">{erro.message}</span>
@@ -55,6 +56,7 @@ export const FormConta = () => {
             value={senha}
             placeholder="joana123"
             onChange={handleChange}
+            data-test="senha"
           />
           {erro.path === 'senha' ? (
             <span data-test="mensagem-erro">{erro.message}</span>

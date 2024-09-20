@@ -2,9 +2,9 @@
   "users": [
     {
       "id": "40a41438-84a6-4b4d-ae1d-7f1713d0a9fe",
-      "nome": "Neilton Seguins",
+      "nome": "Eduarda Carvalho",
       "email": "neilton@alura.com",
-      "senha": "123456",
+      "senha": "d4Rd_tKahEJAGmh",
       "transacoes": [
         {
           "id": "788f434b-11ee-451d-b968-02d203bfc81a",
@@ -33,9 +33,16 @@
           "valor": "200",
           "data": "01/03/2023",
           "mes": "Março"
+        },
+        {
+          "id": "e971c94e-a607-4b2e-b770-67634a0ffbe4",
+          "tipoTransacao": "Depósito",
+          "valor": "10",
+          "data": "20/09/2024",
+          "mes": "Setembro"
         }
       ],
-      "saldo": 2340
+      "saldo": 2350
     },
     {
       "id": "c691fd15-dcd5-4f24-89da-cdfa3cef9d67",
@@ -56,9 +63,128 @@
           "valor": "1500",
           "data": "17/02/2023",
           "mes": "Fevereiro"
+        },
+        {
+          "id": "480105e0-cda1-4d16-a8cc-a1d261eaa225",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "7a8c105f-204c-47fb-bc60-9c97760459bc",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "5c9785f1-9c0a-45d7-9a32-dd04861b251e",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "cfece274-b0b4-4703-a81e-4c3d13a9e28e",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "020d3e8b-ee10-4c3c-bad7-3d4a74e9cef5",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "638b7f5b-550e-4119-91c3-59964e5c298c",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "4898fcf2-e6f2-443f-88e2-c590efb3263a",
+          "tipoTransacao": "Transferência",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "00233dc8-8ead-432d-b2e3-11292a915e71",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "118a5594-f0bd-4cb2-ba1f-707a5f8e500b",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "8dc9b1d7-c3d4-428b-8f64-e19b693b71be",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "0db03303-e7a8-4b6d-93d7-4652cc1ce61f",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "b3123022-4eee-4c86-9234-06c0a482cec6",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "6f36eb9e-cb79-44d7-89d1-dbdde8a705b7",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "07dc5349-95c9-419b-b51a-e7dc107f9df8",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "62f1f246-698e-479d-bc1f-680848250df5",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "4d482e78-2152-46c8-8625-3622426c5f00",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
+        },
+        {
+          "id": "9a4cc83f-863d-4809-91df-5673482cc0b2",
+          "tipoTransacao": "Depósito",
+          "valor": "100",
+          "data": "20/09/2024",
+          "mes": "Setembro"
         }
       ],
-      "saldo": 3500
+      "saldo": 3800
     },
     {
       "id": "545e2271-3f4f-4986-bf03-04eae5d66b66",
